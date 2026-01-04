@@ -1,0 +1,34 @@
+# main
+langchain~=0.2.16
+langchain_community~=0.2.16
+langchain_qianwen~=0.1.17
+openai~=1.45.0
+pyyaml~=6.0.2
+uuid~=1.30
+fastapi~=0.114.0
+starlette~=0.38.5
+py2neo~=2021.2.4
+websockets~=13.0.1
+pydantic~=2.9.1
+jinja2~=3.1.4
+httpx~=0.27.2
+sqlalchemy~=2.0.34
+jieba~=0.42.1
+uvicorn~=0.30.6
+jionlp~=1.5.15
+psycopg2-binary~=2.9.9
+oracledb~=1.2.2
+pgvector~=0.3.5
+faiss-cpu~=1.10.0
+transformers~=4.36.2
+sentence-transformers~=2.2.2
+huggingface-hub~=0.21.2
+# docx_reader
+pypandoc~=1.15
+python_docx~=1.1.2
+lxml~=4.6.5
+# pdf2img
+fitz==0.0.1.dev2
+frontend==0.0.3
+tools==0.1.9
+PyMuPDF~=1.25.4

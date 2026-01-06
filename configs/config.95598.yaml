@@ -1,0 +1,22 @@
+# model
+llm_base_url: "http://10.4.57.222:18001/v1"
+#llm_base_url: "http://10.4.57.222:13001/v1"
+model_type: openai # model type: dashscope, openai
+#model_name: "Qwen2.5-72B-Instruct"
+#model_name: "Qwen2.5-32B-Instruct"
+model_name: "Qwen-7B-Chat"
+#model_name: "GLM-4-9B-Chat"  # error
+
+#OPENAI_API_KEY=sk-1NAOMRcIE67D6pTm9eCa7eDbCaF5477f8339FbC66b31Ec50
+
+app_db_name: postgres_95598
+table_task_info: MC_TASK_INFO
+table_task_detail: MC_TASK_DETAIL
+
+
+postgres_95598:
+  host: '10.4.59.174'
+  port: 31025
+  database: 'mimp_dev'
+  user: 'dws_miop_sxdp'
+  password: 'Neu@1234'
